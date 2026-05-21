@@ -93,8 +93,8 @@
             key-positions = <17 18>;
         };
 
-        underscore {
-            bindings = <&kp UNDERSCORE>;
+        percent {
+            bindings = <&kp PERCENT>;
             key-positions = <29 30>;
         };
 
@@ -133,8 +133,8 @@
             key-positions = <2 9>;
         };
 
-        percent {
-            bindings = <&kp PERCENT>;
+        underscore {
+            bindings = <&kp UNDERSCORE>;
             key-positions = <26 33>;
         };
     };
