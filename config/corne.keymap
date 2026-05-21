@@ -9,6 +9,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&mt { flavor = "balanced"; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -130,12 +132,22 @@
 
         at_sgin {
             bindings = <&kp AT_SIGN>;
-            key-positions = <2 9>;
+            key-positions = <25 34>;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <26 33>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <26 27>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <32 33>;
         };
     };
 
